@@ -37,6 +37,9 @@ for(let i=5;i>0;i--){
         k+=i;
     }
     console.log(k)
-    //console.log(" ")
 
+}
+console.log("=================")
+for(let i=0;i<6;i++){
+    console.log(i*10)
 }
