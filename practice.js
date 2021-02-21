@@ -5,5 +5,38 @@ for(let i=0;i<5;i++){
         k+='*'
     }
     console.log(k)
- 
+}
+console.log("======================")
+for(let i=1;i<5;i++){
+    let k='';
+    for(let j=i;j<5;j++){
+        k+=i;
+    }
+    console.log(k)
+}
+console.log("======================")
+for(let i=1;i<5;i++){
+    let k='';
+    for(let j=1;j<=i;j++){
+        k+=i;
+    }
+    console.log(k)
+}
+console.log("======================")
+for(let i=1;i<5;i++){
+    let k='';
+    for(let j=1;j<=i;j++){
+        k+=j;
+    }
+    console.log(k)
+}
+console.log("======================")
+for(let i=5;i>0;i--){
+    let k='';
+    for(let j=i;j>=1;j--){
+        k+=i;
+    }
+    console.log(k)
+    //console.log(" ")
+
 }
