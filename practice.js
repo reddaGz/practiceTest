@@ -1,9 +1,9 @@
 
-let prompt=require('prompt-sync')();
-let m =prompt(`enter number 1:`);
-let n=prompt("enter number 2:")
-let u=n+m;
-console.log(u);
+// let prompt=require('prompt-sync')();
+// let m =prompt(`enter number 1:`);
+// let n=prompt("enter number 2:")
+// let u=n+m;
+// console.log(u);
 for(let i=0;i<5;i++){
     let k='';
     for(let j=i;j<5;j++){
