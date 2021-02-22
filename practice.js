@@ -9,6 +9,8 @@ for(let i=0;i<5;i++){
     for(let j=i;j<5;j++){
         k+='*'
     }
+    
+
     console.log(k)
 }
 console.log("======================")
@@ -57,4 +59,7 @@ for(let i=0;i<6;i++){
     console.log(i*4)
 }
 
-
+console.log("=================")
+let x=5;
+let y=8;
+console.log(x+y);
