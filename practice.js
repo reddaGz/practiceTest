@@ -1,4 +1,5 @@
 
+"use strict"
 let prompt=require('prompt-sync')();
 let m =prompt(`enter number 1:`);
 let n=prompt("enter number 2:")
@@ -9,8 +10,6 @@ for(let i=0;i<5;i++){
     for(let j=i;j<5;j++){
         k+='*'
     }
-    
-
     console.log(k)
 }
 console.log("======================")
